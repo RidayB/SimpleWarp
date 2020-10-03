@@ -1,6 +1,6 @@
 # SimpleWarp
 
-This is a simple warp plugin I spent a day making. 
+This is a simple warp plugin I spent a day making. The raw version of this ReadMe is formatted better so you may want to use that instead.
 
 This plugin has two levels of warps, public warps and private warps. These have specified permissions to access each of them. 
 
