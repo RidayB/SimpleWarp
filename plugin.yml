@@ -1,0 +1,27 @@
+name: SimpleWarp
+main: simplewarp.plugin.SimpleWarpMain
+version: 1.0
+api-version: 1.16
+commands:
+    warp:
+      description: Everything to do with the the simplewarp plugin.  
+      usage: /<command>
+permissions:
+     simplewarp.*:
+        description: Permission for all simplewarp commands.
+        children:
+           simplewarp.warppublicwarp: true
+           simplewarp.warpprivatewarp: true
+           simplewarp.warpallwarps: true
+           simplewarp.createpublicwarp: true
+           simplewarp.createprivatewarp: true
+           simplewarp.createallwarps: true
+           simplewarp.help: true
+           simplewarp.list: true
+           simplewarp.removewarp: true
+           simplewarp.reset: true
+           simplewarp.warpotherplayers: true
+           simplewarp.listpublicwarps: true
+           simplewarp.listprivatewarps: true
+           simplewarp.listallwarps: true
+           simplewarp.tpthroughsigns: true
